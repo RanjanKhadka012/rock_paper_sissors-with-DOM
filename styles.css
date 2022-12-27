@@ -17,14 +17,16 @@ body{
 }
 
 .display{
+    display: grid;
+    place-items: center;
     border: 2px solid red;
+    font-size:60px ;
     height:225px ;
     margin-top: 50px;
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 5px;
-    color: aliceblue;
-    
+    color: antiquewhite;
 }
 
 .choice{
