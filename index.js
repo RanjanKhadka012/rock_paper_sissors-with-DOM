@@ -2,7 +2,7 @@ const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const sissors = document.getElementById('sissors');
 
-function user_pick (rock, paper, scissors) {
+function user_pick (rock, paper, sissors) {
   rock.addEventListener('click', () => "rock");
   paper.addEventListener('click', () => "paper");
   sissors.addEventListener('click', () => "sissors");
@@ -19,3 +19,4 @@ function computer_pick(_){
         return "sissors"
     }
 }
+
