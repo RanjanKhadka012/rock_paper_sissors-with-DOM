@@ -1,7 +1,11 @@
-const rock = document.getElementById("rock")
-const paper = document.getElementById("paper")
-const sissors = document.getElementById("sissors")
+const rock = document.getElementById('rock');
+const paper = document.getElementById('paper');
+const sissors = document.getElementById('sissors');
 
-rock.addEventListener("click",()=> alert("rock"))
-paper.addEventListener("click",()=> alert("paper"))
-sissors.addEventListener("click",()=> alert("sissors"))
+function user_pick (rock, paper, scissors) {
+  rock.addEventListener('click', () => "rock");
+  paper.addEventListener('click', () => "paper");
+  sissors.addEventListener('click', () => "sissors");
+}
+
+user_pick(rock, paper, sissors);
