@@ -7,5 +7,15 @@ function user_pick (rock, paper, scissors) {
   paper.addEventListener('click', () => "paper");
   sissors.addEventListener('click', () => "sissors");
 }
+let array = [1, 2, 3];
+const randomValue = array[Math.floor(Math.random() * array.length)];
 
-user_pick(rock, paper, sissors);
+function computer_pick(_){
+    if (_ == 1){
+        return "rock"
+    } else if (_ == 2 ){
+        return "paper"
+    } else if (_ == 3){
+        return "sissors"
+    }
+}
