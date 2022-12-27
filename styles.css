@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color:antiquewhite;
+}
+.Game_on{
+    display: flexbox;
+    border:2px solid blue;
+    background-color: rgb(rgba(231, 242, 244, 0.246), green, blue);
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:center;
+    font-size: 75px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.display{
+    border: 2px solid red;
+    height:225px ;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5px;
+    
+}
+
+.choice{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#rock{
+   background-image: url("/images/rock.jpeg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto;
+   height: 140px;
+   width: 140px;
+}
+#paper {
+   background-image: url("/images/paper.jpeg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto;
+   height: 140px;
+   width: 140px;
+}
+#sissors {
+   background-image: url("/images/sissors.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto;
+   height: 140px;
+   width: 140px;
+}
